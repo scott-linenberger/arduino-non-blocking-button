@@ -24,7 +24,6 @@ class Button {
     uint16_t _timeoutDepressed,
     boolean _triggeredState
   );
-  void begin();
   boolean isPressed();
 };
 
